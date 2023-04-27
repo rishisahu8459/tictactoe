@@ -1,12 +1,14 @@
+import React from 'react';
+import './Style.scss'
+import Board from './components/Board';
 
-import './App.css'
-import Square from './components/Square';
-function App() {
-  const [count, setCount] = useState(0)
-
+const App = () => {
   return (
-    <div classname="card">hello</div>
-  )
-}
+    <div className='app'>
+      <h1>TIC TAC TOE</h1>
+      <Board />
+    </div>
+  );
+};
 
-export default App
+export default App;
