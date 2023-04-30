@@ -1,6 +1,8 @@
 import React from 'react';
 import './Style.scss'
 import Board from './components/Board';
+import {usestate} from 'react'
+
 
 const App = () => {
   return (
